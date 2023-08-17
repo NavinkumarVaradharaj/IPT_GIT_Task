@@ -4,6 +4,7 @@ public interface Cart {
 
 	String bag_icon_xpath = "//span[@class='cart-count']";
 	
+	
 	String bag_frame_xpath = "//iframe[@src='/mobileCartIframe?ptype=customIframeCart']"; 
 	
 	String quantity_xpath = "//p[@data-test-id='select-quantity']";

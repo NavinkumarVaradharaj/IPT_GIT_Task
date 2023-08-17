@@ -24,6 +24,13 @@ public class PaymentPage extends BaseClass {
 	@FindBy(xpath = Payment.pay_button_xpath)
 	private WebElement pay_button;
 	
+
+	@FindBy(xpath = Payment.rupee_btn_xpath )
+	private WebElement rupee_btn_xpath;
+	
+	@FindBy(xpath = Payment.securepay_btn_xpath )
+	private WebElement securepay_btn_xpath;
+
 	@FindBy(xpath = Payment.paynow_btn_xpath)
 	private WebElement paynow_btn_xpath;
 	
@@ -48,6 +55,13 @@ public class PaymentPage extends BaseClass {
 	}
 	public WebElement getPay_button() {
 		return pay_button;
+	}	
+
+	public WebElement getRupee_btn_xpath() {
+		return rupee_btn_xpath;
 	}
 
+	public WebElement getSecurepay_btn_xpath() {
+		return securepay_btn_xpath;
+	}
 }
