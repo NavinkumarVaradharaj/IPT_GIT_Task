@@ -17,7 +17,7 @@ public class LoginPage extends BaseClass implements Login{
 	private WebElement SignInMobile_Btn;
 	
 	@FindBy (xpath =logout_alldevices_xpath)
-	private WebElement logoutal;
+	private WebElement logoutall;
 
 	public WebElement getSignInbtn() {
 		return signInbtn;
@@ -27,8 +27,8 @@ public class LoginPage extends BaseClass implements Login{
 		return SignInMobile_Btn;
 	}
 	
-	public WebElement logoutal() {
-		return logoutal;
+	public WebElement logoutall() {
+		return logoutall;
 	}
 	
 	
