@@ -1,6 +1,7 @@
 Manifest-Version: 1.0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Built-By: Kanisri
 Build-Jdk: 17.0.8
 =======
@@ -29,5 +30,12 @@ Build-Jdk: 17.0.4.1
 =======
 >>>>>>> 4e979d3d23268f9095464a4346103b84df2057d4
 >>>>>>> cf6a38dbc1122542845849abf41858fa36f23474
+=======
+Build-Jdk-Spec: 17
+=======
+Built-By: Harish
+Build-Jdk: 17.0.5
+>>>>>>> 062b99f7b00f5750058b1029bcc4822de7454be8
+>>>>>>> 1efa70b1a97bddd7d48f59d1e5be585687045989
 Created-By: Maven Integration for Eclipse
 
