@@ -23,19 +23,29 @@ public class PaymentPage extends BaseClass {
 
 	@FindBy(xpath = Payment.pay_button_xpath)
 	private WebElement pay_button;
+	
+	@FindBy(xpath = Payment.paynow_btn_xpath)
+	private WebElement paynow_btn_xpath;
+	
+	@FindBy(xpath = Payment.close_btn_xpath)
+	private WebElement close_btn_xpath;
+	
+	public WebElement getPaynow_btn_xpath() {
+		return paynow_btn_xpath;
+	}
 
+	public WebElement getClose_btn_xpath() {
+		return close_btn_xpath;
+	}
 	public WebElement getExirydate() {
 		return exirydate;
 	}
-
 	public WebElement getCardnumber() {
 		return cardnumber;
 	}
-
 	public WebElement getCvv() {
 		return cvv;
 	}
-
 	public WebElement getPay_button() {
 		return pay_button;
 	}
