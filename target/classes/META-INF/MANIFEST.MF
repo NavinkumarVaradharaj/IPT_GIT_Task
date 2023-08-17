@@ -1,4 +1,9 @@
 Manifest-Version: 1.0
+<<<<<<< HEAD
 Build-Jdk-Spec: 17
+=======
+Built-By: Harish
+Build-Jdk: 17.0.5
+>>>>>>> 062b99f7b00f5750058b1029bcc4822de7454be8
 Created-By: Maven Integration for Eclipse
 
