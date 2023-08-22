@@ -14,10 +14,10 @@ public class Product_Implement extends BaseClass implements Product {
 	
 	@FindBy (xpath = babypowder_xpath)
 	private WebElement babypowder;
-
+  
 	public WebElement getBabypowder() {
 		return babypowder;
 	}
 	
 }
-
+	

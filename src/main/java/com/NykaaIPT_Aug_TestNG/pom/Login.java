@@ -1,6 +1,6 @@
 package com.NykaaIPT_Aug_TestNG.pom;
 
-public interface Login {
+public interface Login  {
 
 	String signIn_btn_xpath = "//button[text()='Sign in']";
 
