@@ -1,32 +1,3 @@
-<<<<<<< HEAD
-package com.NykaaIPT_Aug_TestNG.pom;
-
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
-
-
-import com.NykaaIPT_Aug_TestNG.base.BaseClass;
-
-public class LoginPage extends BaseClass implements Login {
-	
-	
-
-	@FindBy(xpath = email_mobile_xpath)
-	private WebElement email_btn;
-	
-	public WebElement getEmail_btn() {
-		return email_btn;
-	}
-	
-	@FindBy(xpath = signIn_proceed_btn_xpath)
-	private WebElement Sign_proceed;
-	
-	public WebElement getSign_proceed() {
-		return Sign_proceed;
-	}
-
-}
-=======
 package com.NykaaIPT_Aug_TestNG.pom;
 
 import org.openqa.selenium.WebElement;
@@ -44,6 +15,9 @@ public class LoginPage extends BaseClass implements Login{
 	
 	@FindBy(xpath =sign_with_mobile_xpath)
 	private WebElement SignInMobile_Btn;
+	
+	@FindBy (xpath =logout_alldevices_xpath)
+	private WebElement logoutall;
 
 	public WebElement getSignInbtn() {
 		return signInbtn;
@@ -53,9 +27,12 @@ public class LoginPage extends BaseClass implements Login{
 		return SignInMobile_Btn;
 	}
 	
+	public WebElement logoutall() {
+		return logoutall;
+	}
 	
 	
 	
 
 }
->>>>>>> 588db03f1931d31b345772c389a021e9100ee6af
+

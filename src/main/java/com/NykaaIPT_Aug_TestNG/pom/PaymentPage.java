@@ -44,20 +44,15 @@ public class PaymentPage extends BaseClass {
 	public WebElement getClose_btn_xpath() {
 		return close_btn_xpath;
 	}
-
 	public WebElement getExirydate() {
 		return exirydate;
 	}
-
 	public WebElement getCardnumber() {
 		return cardnumber;
 	}
-	
-
 	public WebElement getCvv() {
 		return cvv;
 	}
-
 	public WebElement getPay_button() {
 		return pay_button;
 	}	
