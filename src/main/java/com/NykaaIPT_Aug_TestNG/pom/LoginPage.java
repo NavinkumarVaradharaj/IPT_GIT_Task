@@ -17,6 +17,8 @@ public class LoginPage extends BaseClass implements Login {
 		return email_btn;
 	}
 	
+	
+	
 	@FindBy(xpath = signIn_proceed_btn_xpath)
 	private WebElement Sign_proceed;
 	
